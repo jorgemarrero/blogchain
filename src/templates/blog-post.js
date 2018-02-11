@@ -4,23 +4,24 @@ import Helmet from 'react-helmet';
 import Content, { HTMLContent } from '../components/Content';
 
 export const BlogPostTemplate = ({
-  content, contentComponent, description, title, helmet,
+  content, contentComponent, description, title, helmet, date
 }) => {
   const PostContent = contentComponent || Content;
 
   return (
-    <section className="section">
-      { helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">{title}</h1>
-            <p>{description}</p>
+    <div>
+      <div id="main" className="alt blog-post">
+        <section id="one">
+          <div className="inner">
+            <header className="major">
+              <h1>{title}</h1>
+            </header>
+            <small>{date}</small>
             <PostContent content={content} />
-          </div>
-        </div>
+            </div>
+        </section>
       </div>
-    </section>
+    </div>
   );
 };
 
