@@ -31,7 +31,7 @@ export default class IndexPage extends Component {
           onLoad={() => handleScriptLoad()}
         />
         <Banner />
-        <div id="main">
+        <div id="main" className="wrapper">
           <section id="one" className="tiles">
             {posts
               .filter(post => post.node.frontmatter.templateKey === 'blog-post')
