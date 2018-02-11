@@ -84,4 +84,7 @@
 .wrapper {
   margin: 0 auto;
   max-width: 65em;
+  @media screen and (max-width: 736px) {
+    width: calc(100% - 3em);
+  }
 }
