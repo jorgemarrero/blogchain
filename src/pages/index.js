@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import Script from 'react-load-script';
 import Helmet from 'react-helmet';
+import Tilt from 'react-tilt';
 import graphql from 'graphql';
 
 import Banner from '../components/Banner';
@@ -36,14 +37,18 @@ export default class IndexPage extends Component {
             {posts
               .filter(post => post.node.frontmatter.templateKey === 'blog-post')
               .map(({ node: post }) => (
-                <article style={{ backgroundImage: `url(${post.frontmatter.image})` }}>
-                  <header className="major">
+                <Tilt
+                  className="Tilt article"
+                  options={{ max: 15 }}
+                  style={{ backgroundImage: `url(${post.frontmatter.image})` }}
+                >
+                  <header className="major Tilt-inner">
                     <h3>{post.frontmatter.title}</h3>
                     <p>{post.frontmatter.description}</p>
                   </header>
                   <Link to={post.frontmatter.path} className="link primary" />
                   {/* <Link to="/landing" className="link primary"></Link> */}
-                </article>
+                </Tilt>
               ))}
           </section>
         </div>
