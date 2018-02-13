@@ -4,13 +4,15 @@ import Link from 'gatsby-link';
 
 const Header = props => (
   <header id="header" className="alt wrapper">
-    <Link to="/" className="logo">
-      <strong>Blogchain</strong>
-      <span>.es</span>
-    </Link>
-    <nav>
-      <Link to="/about-us">About Us</Link>
-    </nav>
+    <div className="inner">
+      <Link to="/" className="logo">
+        <strong>Blogchain</strong>
+        <span>.es</span>
+      </Link>
+      <nav>
+        <Link to="/about">Sobre Nosotros</Link>
+      </nav>
+    </div>
   </header>
 );
 

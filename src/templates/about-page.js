@@ -7,7 +7,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <section className="section section--gradient">
-      <div className="container">
+      <div className="container inner">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
@@ -24,11 +24,13 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 export default ({ data }) => {
   const { markdownRemark: post } = data;
 
-  return (<AboutPageTemplate
-    contentComponent={HTMLContent}
-    title={post.frontmatter.title}
-    content={post.html}
-  />);
+  return (
+    <AboutPageTemplate
+      contentComponent={HTMLContent}
+      title={post.frontmatter.title}
+      content={post.html}
+    />
+  );
 };
 
 export const aboutPageQuery = graphql`
