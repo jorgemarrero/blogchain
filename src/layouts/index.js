@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import '../assets/scss/main.scss';
 import Header from '../components/Header';
 import Menu from '../components/Menu';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import baseStyles from '../assets/style';
 
 const TemplateWrapper = class extends React.Component {
   constructor(props) {
@@ -36,6 +36,8 @@ const TemplateWrapper = class extends React.Component {
   }
 
   render() {
+    baseStyles();
+
     const { children } = this.props;
 
     return (

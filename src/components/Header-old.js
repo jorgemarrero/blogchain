@@ -1,14 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
-import styled from 'styled-components';
-
-const Container = styled.header`
-  width: 100%;
-`;
 
 const Header = props => (
-  <Container>
+  <header id="header" className="alt wrapper">
     <div className="inner">
       <Link to="/" className="logo">
         <strong>Blogchain</strong>
@@ -18,7 +13,7 @@ const Header = props => (
         <Link to="/about">Sobre Nosotros</Link>
       </nav>
     </div>
-  </Container>
+  </header>
 );
 
 Header.propTypes = {

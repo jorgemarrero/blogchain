@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Link from 'gatsby-link';
 import Script from 'react-load-script';
 import Helmet from 'react-helmet';
 import Tilt from 'react-tilt';
 import graphql from 'graphql';
-
 import Banner from '../components/Banner';
 
 export default class IndexPage extends Component {
@@ -26,12 +25,12 @@ export default class IndexPage extends Component {
     };
 
     return (
-      <div>
+      <Fragment>
         <Script
           url="https://identity.netlify.com/v1/netlify-identity-widget.js"
           onLoad={() => handleScriptLoad()}
         />
-        <Banner />
+
         <div id="main" className="wrapper">
           <section id="one" className="tiles">
             {posts
@@ -39,7 +38,7 @@ export default class IndexPage extends Component {
               .map(({ node: post }) => (
                 <Tilt
                   className="Tilt article"
-                  options={{ max: 15 }}
+                  options={{ max: 15, speed: 3000 }}
                   style={{ backgroundImage: `url(${post.frontmatter.image})` }}
                 >
                   <header className="major Tilt-inner">
@@ -52,7 +51,7 @@ export default class IndexPage extends Component {
               ))}
           </section>
         </div>
-      </div>
+      </Fragment>
     );
   }
 }
