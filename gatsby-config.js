@@ -3,6 +3,12 @@ module.exports = {
     title: 'Gatsby + Netlify CMS Starter',
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-typography',
+      options: {
+        pathToConfigModule: 'src/utils/typography.js',
+      },
+    },
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     {

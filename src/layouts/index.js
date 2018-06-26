@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
+
+import { ThemeProvider } from 'styled-components';
+
 import Header from '../components/Header';
 import Menu from '../components/Menu';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
-import baseStyles from '../assets/style';
+import baseStyles from '../assets/baseStyle';
+import theme from '../assets/themeStyle';
 
 const TemplateWrapper = class extends React.Component {
   constructor(props) {
@@ -41,20 +45,19 @@ const TemplateWrapper = class extends React.Component {
     const { children } = this.props;
 
     return (
-      <div
-        className={`body ${this.state.loading} ${
-          this.state.isMenuVisible ? 'is-menu-visible' : ''
-        }`}
-      >
-        <Helmet title="Blogchain Blog" />
-        <div id="wrapper">
-          <Header onToggleMenu={this.handleToggleMenu} />
-          {children()}
-          {/* <Contact /> */}
-          <Footer />
+      <ThemeProvider theme={theme}>
+        <div
+          className={`${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}
+        >
+          <Helmet title="Blogchain Blog" />
+          <div id="wrapper">
+            <Header onToggleMenu={this.handleToggleMenu} />
+            {children()}
+            {/* <Contact /> */}
+            <Footer />
+          </div>
         </div>
-        <Menu onToggleMenu={this.handleToggleMenu} />
-      </div>
+      </ThemeProvider>
     );
   }
 };

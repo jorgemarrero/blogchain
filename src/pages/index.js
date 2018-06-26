@@ -1,10 +1,10 @@
 import React, { Component, Fragment } from 'react';
-import Link from 'gatsby-link';
 import Script from 'react-load-script';
 import Helmet from 'react-helmet';
-import Tilt from 'react-tilt';
 import graphql from 'graphql';
 import Banner from '../components/Banner';
+import Feed from '../components/Feed';
+import Article from '../components/Article';
 
 export default class IndexPage extends Component {
   render() {
@@ -30,27 +30,13 @@ export default class IndexPage extends Component {
           url="https://identity.netlify.com/v1/netlify-identity-widget.js"
           onLoad={() => handleScriptLoad()}
         />
+        <Banner />
 
-        <div id="main" className="wrapper">
-          <section id="one" className="tiles">
-            {posts
-              .filter(post => post.node.frontmatter.templateKey === 'blog-post')
-              .map(({ node: post }) => (
-                <Tilt
-                  className="Tilt article"
-                  options={{ max: 15, speed: 3000 }}
-                  style={{ backgroundImage: `url(${post.frontmatter.image})` }}
-                >
-                  <header className="major Tilt-inner">
-                    <h3>{post.frontmatter.title}</h3>
-                    <p>{post.frontmatter.description}</p>
-                  </header>
-                  <Link to={post.frontmatter.path} className="link primary" />
-                  {/* <Link to="/landing" className="link primary"></Link> */}
-                </Tilt>
-              ))}
-          </section>
-        </div>
+        <Feed>
+          {posts
+            .filter(post => post.node.frontmatter.templateKey === 'blog-post')
+            .map(({ node: post }) => <Article post={{ ...post }} />)}
+        </Feed>
       </Fragment>
     );
   }

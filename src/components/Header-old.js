@@ -6,8 +6,7 @@ const Header = props => (
   <header id="header" className="alt wrapper">
     <div className="inner">
       <Link to="/" className="logo">
-        <strong>Blogchain</strong>
-        <span>.es</span>
+        <h2>Blogchain</h2>
       </Link>
       <nav>
         <Link to="/about">Sobre Nosotros</Link>
