@@ -4,11 +4,25 @@ import Link from 'gatsby-link';
 const Container = styled.header`
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 2px -2px;
-  display: flex;
   font-family: 'Rosario';
   background-color: rgba(255, 255, 255, 0.9);
+  display: none;
 `;
 
+const ContainerDesktop = Container.extend`
+  @media (min-width: 768px) {
+    display: flex;
+  }
+`;
+
+const ContainerMobile = Container.extend`
+  position: relative;
+  overflow: hidden;
+  height: 68px;
+  @media (max-width: 767px) {
+    display: flex;
+  }
+`;
 const WrapperDesktop = styled.div`
   display: flex;
   height: 100px;
@@ -17,12 +31,6 @@ const WrapperDesktop = styled.div`
   margin-right: auto;
   justify-content: space-between;
   align-items: center;
-`;
-
-const ContainerMobile = Container.extend`
-  position: relative;
-  overflow: hidden;
-  height: 68px;
 `;
 
 const HamburgerContainer = styled.div`
@@ -98,7 +106,7 @@ const StyledLink = styled(Link)`
 `;
 
 export {
-  Container,
+  ContainerDesktop,
   WrapperDesktop,
   ContainerMobile,
   Logo,

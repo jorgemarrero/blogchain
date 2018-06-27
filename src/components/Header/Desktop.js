@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 
-import { WrapperDesktop, Container, Logo, StyledLink as Link } from './style';
+import { WrapperDesktop, ContainerDesktop, Logo, StyledLink as Link } from './style';
 
 const Desktop = () => (
-  <Container>
+  <ContainerDesktop>
     <WrapperDesktop>
       <Logo>
         blog<span>chain</span>
@@ -17,7 +17,7 @@ const Desktop = () => (
         </Link>
       </div>
     </WrapperDesktop>
-  </Container>
+  </ContainerDesktop>
 );
 
 export default Desktop;

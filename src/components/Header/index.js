@@ -1,18 +1,13 @@
-import React from 'react';
-import MediaQuery from 'react-media';
+import React, { Fragment } from 'react';
 
 import Desktop from './Desktop';
 import Mobile from './Mobile';
 
 const Header = () => (
-  <MediaQuery query="(min-width: 700px)">
-    {(matches) => {
-      if (matches) {
-        return <Desktop />;
-      }
-      return <Mobile />;
-    }}
-  </MediaQuery>
+  <Fragment query="(min-width: 700px)">
+    <Desktop />
+    <Mobile />
+  </Fragment>
 );
 
 export default Header;
