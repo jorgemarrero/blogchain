@@ -4,17 +4,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-purify-css',
-      options: {
-        /* Defaults */
-        styleId: 'gatsby-inlined-css',
-        purifyOptions: {
-          info: true,
-          minify: true,
-        },
-      },
-    },
-    {
       resolve: 'gatsby-plugin-typography',
       options: {
         pathToConfigModule: 'src/utils/typography.js',
