@@ -5,7 +5,7 @@ import { WrapperDesktop, ContainerDesktop, Logo, StyledLink as Link } from './st
 const Desktop = () => (
   <ContainerDesktop>
     <WrapperDesktop>
-      <Logo>
+      <Logo to="/" href="/">
         blog<span>chain</span>
       </Logo>
       <div>

@@ -33,7 +33,7 @@ export default class HeaderMobile extends Component {
           />
         </HamburgerContainer>
         <Content visible={!this.state.open} extraWidth={hamburgerWidth}>
-          <Logo>
+          <Logo to="/" href="/">
             blog<span>chain</span>
           </Logo>
         </Content>

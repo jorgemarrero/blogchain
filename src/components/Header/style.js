@@ -60,8 +60,11 @@ const Content = styled.div`
     `};
 `;
 
-const Logo = styled.span`
+const Logo = styled(Link)`
   font-size: 1.25rem;
+  color: hsla(0, 0%, 0%, 0.73);
+  text-shadow: none;
+  background-image: none;
   span {
     color: rgb(17, 163, 172);
   }
