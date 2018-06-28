@@ -11,10 +11,6 @@ const Article = ({ post }) => {
         <Content>
           <h2>{post.frontmatter.title}</h2>
           <p>{post.frontmatter.description}</p>
-          <Info>
-            <span>Jorge Marrero</span>
-            <span>{post.frontmatter.date}</span>
-          </Info>
         </Content>
       </Link>
     </Container>

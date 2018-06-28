@@ -4,7 +4,7 @@ import Desktop from './Desktop';
 import Mobile from './Mobile';
 
 const Header = () => (
-  <Fragment query="(min-width: 700px)">
+  <Fragment>
     <Desktop />
     <Mobile />
   </Fragment>

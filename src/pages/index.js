@@ -29,7 +29,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
-          excerpt(pruneLength: 400)
+          excerpt(pruneLength: 100)
           id
           frontmatter {
             title
