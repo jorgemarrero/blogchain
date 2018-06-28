@@ -18,15 +18,24 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Autor del post", name: "author", widget: "relation", collection: "authors", searchFields: ["name", "twitterHandle"], valueField: "name", displayFields: ["twitterHandle", "followerCount"]}
 
   - name: "pages"
-    label: "Pages"
+    label: "Páginas"
     files:
       - file: "src/pages/about/about.md"
-        label: "About"
-        name: "about"
+        label: "Nosotros"
+        name: "nosotros"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Path", name: "path", widget: "hidden", default: "/about"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "nosotros-page"}
+          - {label: "Path", name: "path", widget: "hidden", default: "/nosotros"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "authors"
+    label: "Autores"
+    create: true
+    folder: "src/pages/authors"
+    fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "author"}
+          - {label: "Nombre", name: "name", widget: "string"}
