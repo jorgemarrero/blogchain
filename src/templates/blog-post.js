@@ -1,8 +1,16 @@
 import React, { Fragment } from 'react';
 import graphql from 'graphql';
 import Helmet from 'react-helmet';
-import { HTMLContent } from '../components/Content';
+import Content, { HTMLContent } from '../components/Content';
 import BlogPost from '../components/BlogPost';
+
+export const BlogPostTemplate = ({
+  content, contentComponent, title, date,
+}) => {
+  const PostContent = contentComponent || Content;
+
+  return <BlogPost content={content} contentComponent={PostContent} title={title} date={date} />;
+};
 
 export default ({ data }) => {
   const { markdownRemark: post } = data;
@@ -10,7 +18,7 @@ export default ({ data }) => {
   return (
     <Fragment>
       <Helmet title={`Blog | ${post.frontmatter.title}`} />
-      <BlogPost
+      <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

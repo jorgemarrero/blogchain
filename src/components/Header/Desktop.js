@@ -12,7 +12,7 @@ const Desktop = () => (
         <Link to="/" href="/" exact activeClassName="active">
           Blog
         </Link>
-        <Link to="/about" href="/about" exact activeClassName="active">
+        <Link to="/nosotros" href="/nosotros" exact activeClassName="active">
           Nosotros
         </Link>
       </div>

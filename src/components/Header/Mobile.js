@@ -42,7 +42,13 @@ export default class HeaderMobile extends Component {
           <Link to="/" href="/" exact activeClassName="active" onClick={this.handleClick}>
             Blog
           </Link>
-          <Link to="/about" href="/about" exact activeClassName="active" onClick={this.handleClick}>
+          <Link
+            to="/nosotros"
+            href="/nosotros"
+            exact
+            activeClassName="active"
+            onClick={this.handleClick}
+          >
             Nosotros
           </Link>
         </Content>
