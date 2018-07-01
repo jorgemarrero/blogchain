@@ -9,7 +9,7 @@ description: >-
 image: /img/saving-bitcoin.png
 author: Jorge Marrero
 ---
-Uno de los mayores incertidumbres con los que me tropecé al empezar a operar con criptomonedas fue encontrar la mejor manera de guardar mis activos. Era un sensación parecida a la que sientes al emprender, tienes tantas opciones y frentes abiertos que no sabes por dónde empezar. En esta guía intentaré que entiendas cual es la mejor manera de guardar tus monedas dependiendo de tu situación.
+Una de los mayores incertidumbres con los que me tropecé al empezar a operar con criptomonedas fue encontrar la mejor manera de guardar mis fondos. Era un sensación parecida a la que sientes al emprender, tienes tantas opciones y frentes abiertos que no sabes por dónde empezar. En esta guía intentaré que entiendas cual es la mejor manera de guardar tus monedas dependiendo de tu situación.
 
 Como todo en la vida, lo importante es saber cuál es nuestro objetivo ya que existen muchas opciones diferentes. Cada opción tiene sus propias ventajas y desventajas, siendo los factores más determinantes el nivel de seguridad, la facilidad de uso y las criptomonedas soportadas.
 
@@ -30,7 +30,7 @@ Tanto las clave pública como la privadas son cadenas alfanuméricas que ha sido
 
 Una vez dispongamos de la clave pública del wallet al que queremos enviar fondos, creamos una transacción y los fondos se enviarán al destinatario. Las comisiones de transacción son significativamente menores, pero varían dependiendo de la criptomoneda - la comisión media para las transacciones de ETH es de [$0.40](https://bitinfocharts.com/comparison/transactionfees-eth-ltc.html) y de LTC es de [$0.10](https://bitinfocharts.com/comparison/litecoin-transactionfees.html). Los fondos llegarán al destino en unos minutos, en lugar de en unos días.
 
-> Los wallet son programas de software que almacenan nuestras claves públicas y privadas e interactúan con varios blockchains que permiten a los usuarios monitorizar su saldo, enviar dinero y realizar otras operaciones.
+> Los wallets almacenan nuestras claves públicas y privadas, interactúan con varios blockchains y, generalmente, permiten a los usuarios monitorizar su saldo, enviar dinero y realizar otras operaciones.
 
 ## Maneras de guardar mis criptomonedas
 
