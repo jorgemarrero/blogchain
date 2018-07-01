@@ -37,7 +37,7 @@ Una vez dispongas de la clave pública del wallet al que queremos enviar fondos,
 
 Para inversiones a corto plazo o momentos en los que necesitas mover rápidamente tus fondos lo más recomendable son los hot wallets o los exchanges. En cambio, si tienes inversiones a largo plazo lo normal es buscar un nivel de seguridad mayor, y ahí los más recomendados son los cold wallets.
 
-Debes tener claro que** los exchanges no son wallets** ya que en ningún momento tienes poder sobre tu clave privada. Esto se traduce en que no posees tus criptomonedas, solo tienes una promesa del exchange de que tus monedas serán devueltas cuando se lo solicites.
+Debes tener claro que **los exchanges no son wallets** ya que en ningún momento tienes poder sobre tu clave privada. Esto se traduce en que no posees tus criptomonedas, solo tienes una promesa del exchange de que tus monedas serán devueltas cuando se lo solicites.
 
 ## Guardar mis criptomonedas en Exchanges
 
