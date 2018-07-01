@@ -4301,7 +4301,7 @@ gatsby-react-router-scroll@^1.0.18:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby-remark-images@^1.5.18:
+gatsby-remark-images@^1.5.67:
   version "1.5.67"
   resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-1.5.67.tgz#6b0db6873ea1a141d2b3ca211a05ab85c55922e2"
   dependencies:
