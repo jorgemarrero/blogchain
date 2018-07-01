@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const Container = styled.main`
   width: 100%;
+  padding-bottom: 1rem;
   .content {
     max-width: 720px;
     margin-left: auto;
@@ -37,4 +38,8 @@ const Header = styled.div`
   text-align: center;
 `;
 
-export { Container, Header };
+const Date = styled.small`
+  text-transform: capitalize;
+`;
+
+export { Container, Header, Date };
