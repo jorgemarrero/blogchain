@@ -10,7 +10,7 @@ image: /img/saving-bitcoin.png
 author: Jorge Marrero
 ---
 
-Una de las mayores incertidumbres con las que tropecé al empezar a operar con criptomonedas fue la de encontrar la mejor manera de guardar mis fondos. Era un sensación parecida a la que sientes al emprender, tienes tantas opciones y frentes abiertos que no sabes por dónde empezar. En esta guía intentaré que entiendas cual es la mejor manera de guardar tus monedas dependiendo de tu situación.
+Una de las mayores incertidumbres con las que tropecé al empezar a operar con criptomonedas fue la de encontrar la mejor manera de guardar mis fondos. Era una sensación parecida a la que sientes al emprender, tienes tantas opciones y frentes abiertos que no sabes por dónde empezar. En esta guía intentaré que entiendas cual es la mejor manera de guardar tus monedas dependiendo de tu situación.
 
 Como todo en la vida, lo importante es saber cuál es nuestro objetivo ya que existen muchas opciones diferentes. Cada opción tiene sus propias ventajas y desventajas, siendo los factores más determinantes el nivel de **seguridad**, la **facilidad de uso** y las **criptomonedas soportadas**.
 
@@ -24,7 +24,7 @@ En el sistema bancario tradicional, almacenas tus fondos dentro de tu cuenta ban
 
 Con las criptomonedas, almacenas tus fondos dentro de un wallet _\-o cartera- _ digital que no es propiedad de nadie más que de uno mismo, no hay ningún banco que administre tu wallet por ti. Al igual que el sistema bancario tradicional, puedes enviar y recibir fondos de otras cuentas. Para ello necesitas la clave pública del destinatario y la clave pública y privada de tu propio wallet.
 
-Tanto las clave pública como la privada son cadenas alfanuméricas que ha sido criptografiadas, y podemos entenderlas como:
+Tanto la clave pública como la privada son cadenas alfanuméricas que han sido criptografiadas, y podemos entenderlas como:
 
 - **clave pública:** nombre de usuario de un wallet
 - **clave privada:** contraseña que permite controlar los fondos de un wallet
@@ -55,7 +55,7 @@ Por hot wallets, o wallets calientes, nos referimos principalmente a los mobile 
 
 _Mobile Wallets son: [Jaxx](https://jaxx.io/), [Electrum](https://electrum.org/), etc._
 
-Los mobile wallets son aplicaciones que puedes descargar en el móvil u ordenador para almacenar tus criptomonedas. A menudo tienen una funcionalidad básica, pero son especialmente útiles para hacer **transacciones rápidas** a otras cuentas, en particular para comprar bienes/servicios. El mayor peligro viene si te roban nuestro dispositivo, ya que corres el riesgo de perder todos tus fondos.
+Los mobile wallets son aplicaciones que puedes descargar en el móvil u ordenador para almacenar tus criptomonedas. A menudo tienen una funcionalidad básica, pero son especialmente útiles para hacer **transacciones rápidas** a otras cuentas, en particular para comprar bienes/servicios. El mayor peligro viene si te roban tu dispositivo personal, ya que corres el riesgo de perder todos tus fondos.
 
 ### Online Wallets
 
