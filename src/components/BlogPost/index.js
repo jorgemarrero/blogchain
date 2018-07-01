@@ -8,14 +8,19 @@ const BlogPost = ({
   content, contentComponent, title, date,
 }) => {
   const PostContent = contentComponent || Content;
-  moment.locale('es');
   return (
     <Container>
       <Header>
         <h1>{title}</h1>
-        <p>
-          <Date>{moment(date).format('DD MMMM, YYYY')}</Date>
-        </p>
+        {date && (
+          <p>
+            <Date>
+              {moment(date)
+                .locale('es')
+                .format('DD MMMM, YYYY')}
+            </Date>
+          </p>
+        )}
       </Header>
       <PostContent content={content} />
     </Container>
