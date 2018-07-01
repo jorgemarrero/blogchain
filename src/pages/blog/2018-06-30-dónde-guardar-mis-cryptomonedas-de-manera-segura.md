@@ -10,7 +10,7 @@ image: /img/saving-bitcoin.png
 author: Jorge Marrero
 ---
 
-Una de los mayores incertidumbres con las que tropecé al empezar a operar con criptomonedas fue la de encontrar la mejor manera de guardar mis fondos. Era un sensación parecida a la que sientes al emprender, tienes tantas opciones y frentes abiertos que no sabes por dónde empezar. En esta guía intentaré que entiendas cual es la mejor manera de guardar tus monedas dependiendo de tu situación.
+Una de las mayores incertidumbres con las que tropecé al empezar a operar con criptomonedas fue la de encontrar la mejor manera de guardar mis fondos. Era un sensación parecida a la que sientes al emprender, tienes tantas opciones y frentes abiertos que no sabes por dónde empezar. En esta guía intentaré que entiendas cual es la mejor manera de guardar tus monedas dependiendo de tu situación.
 
 Como todo en la vida, lo importante es saber cuál es nuestro objetivo ya que existen muchas opciones diferentes. Cada opción tiene sus propias ventajas y desventajas, siendo los factores más determinantes el nivel de **seguridad**, la **facilidad de uso** y las **criptomonedas soportadas**.
 
