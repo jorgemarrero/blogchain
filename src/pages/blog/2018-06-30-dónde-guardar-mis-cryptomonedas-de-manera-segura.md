@@ -6,7 +6,7 @@ date: '2018-07-01T12:30:00+01:00'
 description: >-
   Conoce cual es la forma más recomendable de guardar tus criptomonedas
   dependiendo de tu situación.
-image: /img/saving-bitcoin.png
+image: /img/saving-bitcoin.jpg
 author: Jorge Marrero
 ---
 
