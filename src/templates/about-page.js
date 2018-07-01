@@ -15,7 +15,7 @@ export default ({ data }) => {
 
   return (
     <Fragment>
-      <Helmet title="Nosotros" />
+      <Helmet title="Nosotros | Blogchain y el blockchain" />
       <AboutPageTemplate
         content={post.html}
         contentComponent={HTMLContent}

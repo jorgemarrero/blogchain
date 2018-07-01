@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Container = styled.main`
   width: 100%;
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
   .content {
     max-width: 720px;
     margin-left: auto;
@@ -42,4 +42,12 @@ const Date = styled.small`
   text-transform: capitalize;
 `;
 
-export { Container, Header, Date };
+const Author = styled.div`
+  font-style: italic;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+`;
+
+export { Container, Header, Date, Author };

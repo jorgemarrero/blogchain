@@ -5,16 +5,24 @@ import Content, { HTMLContent } from '../components/Content';
 import BlogPost from '../components/BlogPost';
 
 export const BlogPostTemplate = ({
-  content, contentComponent, title, date,
+  content, contentComponent, title, date, author,
 }) => {
   const PostContent = contentComponent || Content;
 
-  return <BlogPost content={content} contentComponent={PostContent} title={title} date={date} />;
+  return (
+    <BlogPost
+      content={content}
+      contentComponent={PostContent}
+      title={title}
+      date={date}
+      author={author}
+    />
+  );
 };
 
 export default ({ data }) => {
   const { markdownRemark: post } = data;
-
+  console.log(post);
   return (
     <Fragment>
       <Helmet title={`Blog | ${post.frontmatter.title}`} />
@@ -23,6 +31,7 @@ export default ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         date={post.frontmatter.date}
+        author={post.frontmatter.author}
       />
     </Fragment>
   );
@@ -37,6 +46,7 @@ export const pageQuery = graphql`
         date
         title
         description
+        author
       }
     }
   }

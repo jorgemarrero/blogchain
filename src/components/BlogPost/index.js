@@ -1,11 +1,11 @@
 import React from 'react';
 import moment from 'moment';
 
-import { Container, Header, Date } from './style';
+import { Container, Header, Date, Author } from './style';
 import Content from '../Content';
 
 const BlogPost = ({
-  content, contentComponent, title, date,
+  content, contentComponent, title, date, author,
 }) => {
   const PostContent = contentComponent || Content;
   return (
@@ -23,6 +23,11 @@ const BlogPost = ({
         )}
       </Header>
       <PostContent content={content} />
+      {author && (
+        <Author>
+          <small>Escrito por: {author}</small>
+        </Author>
+      )}
     </Container>
   );
 };
