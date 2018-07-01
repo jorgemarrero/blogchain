@@ -14,6 +14,7 @@ const Container = styled.article`
     min-height: 300px;
     background-image: none;
     position: relative;
+    width: 100%;
   }
   &:hover {
     box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);

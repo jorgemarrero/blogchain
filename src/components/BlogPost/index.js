@@ -1,19 +1,26 @@
 import React from 'react';
-import { Container, Header } from './style';
+import moment from 'moment';
+
+import { Container, Header, Date } from './style';
 import Content from '../Content';
 
 const BlogPost = ({
   content, contentComponent, title, date,
 }) => {
   const PostContent = contentComponent || Content;
-
   return (
     <Container>
       <Header>
         <h1>{title}</h1>
-        <p>
-          <small>{date}</small>
-        </p>
+        {date && (
+          <p>
+            <Date>
+              {moment(date)
+                .locale('es')
+                .format('DD MMMM, YYYY')}
+            </Date>
+          </p>
+        )}
       </Header>
       <PostContent content={content} />
     </Container>

@@ -49,7 +49,7 @@ const TemplateWrapper = class extends React.Component {
         <div
           className={`${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}
         >
-          <Helmet title="Blogchain Blog" />
+          <Helmet title="Blogchain | Novedades y objetividad sobre el mundo blockchain" />
           <div id="wrapper">
             <Header onToggleMenu={this.handleToggleMenu} />
             {children()}
