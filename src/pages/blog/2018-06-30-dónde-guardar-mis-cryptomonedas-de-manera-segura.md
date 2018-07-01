@@ -9,7 +9,8 @@ description: >-
 image: /img/saving-bitcoin.png
 author: Jorge Marrero
 ---
-Una de los mayores incertidumbres con los que me tropecé al empezar a operar con criptomonedas fue la de encontrar la mejor manera de guardar mis fondos. Era un sensación parecida a la que sientes al emprender, tienes tantas opciones y frentes abiertos que no sabes por dónde empezar. En esta guía intentaré que entiendas cual es la mejor manera de guardar tus monedas dependiendo de tu situación.
+
+Una de los mayores incertidumbres con las que tropecé al empezar a operar con criptomonedas fue la de encontrar la mejor manera de guardar mis fondos. Era un sensación parecida a la que sientes al emprender, tienes tantas opciones y frentes abiertos que no sabes por dónde empezar. En esta guía intentaré que entiendas cual es la mejor manera de guardar tus monedas dependiendo de tu situación.
 
 Como todo en la vida, lo importante es saber cuál es nuestro objetivo ya que existen muchas opciones diferentes. Cada opción tiene sus propias ventajas y desventajas, siendo los factores más determinantes el nivel de **seguridad**, la **facilidad de uso** y las **criptomonedas soportadas**.
 
@@ -25,8 +26,8 @@ Con las criptomonedas, almacenas tus fondos dentro de un wallet _\-o cartera- _ 
 
 Tanto las clave pública como la privada son cadenas alfanuméricas que ha sido criptografiadas, y podemos entenderlas como:
 
-* **clave pública:** nombre de usuario de un wallet
-* **clave privada:** contraseña que permite controlar los fondos de un wallet
+- **clave pública:** nombre de usuario de un wallet
+- **clave privada:** contraseña que permite controlar los fondos de un wallet
 
 Una vez dispongas de la clave pública del wallet al que queremos enviar fondos, creamos una transacción y los fondos se enviarán al destinatario. Las comisiones de transacción son significativamente menores, pero varían dependiendo de la criptomoneda - la comisión media para las transacciones de ETH es de [$0.40](https://bitinfocharts.com/comparison/transactionfees-eth-ltc.html) y de LTC es de [$0.10](https://bitinfocharts.com/comparison/litecoin-transactionfees.html). Los fondos llegarán al destino en unos minutos, en lugar de en unos días.
 
