@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
+  "name": "blogchain",
+  "description": "Blog acerca del mundo blockchain",
   "version": "1.1.0",
-  "author": "Austin Green",
+  "author": "Jorge Marrero",
   "dependencies": {
     "bulma": "^0.6.0",
     "compass-vertical-rhythm": "^1.4.5",
