@@ -19,6 +19,7 @@ const Container = styled.main`
         max-height: 60vh;
         box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
         object-fit: cover;
+        max-width: 1040px;
         @media (min-width: 768px) {
           position: initial;
           margin-left: 0;

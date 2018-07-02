@@ -17,14 +17,14 @@ const BlogPost = ({
           <p>
             <Date>
               <span role="img" aria-label="icono de calendario">
-                📅
+                📅{' '}
               </span>
               {moment(date)
                 .locale('es')
                 .format('DD MMMM, YYYY')}{' '}
               /{' '}
               <span role="img" aria-label="icono de calendario">
-                ⏱️
+                ⏱️{' '}
               </span>
               {timeToRead} minutos
             </Date>
