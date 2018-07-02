@@ -14,12 +14,15 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Path", name: "path", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "meta title", name: "metatitle", widget: "string"}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime"}
+      - {label: "Descripción", name: "description", widget: "text"}
+      - {label: "meta description", name: "metadescription", widget: "text"}
       - {label: "Imagen principal", name: "image", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Autor del post", name: "author", widget: "relation", collection: "authors", searchFields: ["name", "twitterHandle"], valueField: "name", displayFields: ["twitterHandle", "followerCount"]}
+      - {label: "ALT (imagen principal)", name: "imageAlt", widget: "string"}
+      - {label: "Cuerpo del post", name: "body", widget: "markdown"}
+      - {label: "Autor del post", name: "author", widget: "relation"}
 
   - name: "pages"
     label: "Páginas"
