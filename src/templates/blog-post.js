@@ -5,7 +5,12 @@ import Content, { HTMLContent } from '../components/Content';
 import BlogPost from '../components/BlogPost';
 
 export const BlogPostTemplate = ({
-  content, contentComponent, title, date, author,
+  content,
+  contentComponent,
+  title,
+  date,
+  author,
+  timeToRead,
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -16,6 +21,7 @@ export const BlogPostTemplate = ({
       title={title}
       date={date}
       author={author}
+      timeToRead={timeToRead}
     />
   );
 };
@@ -32,6 +38,7 @@ export default ({ data }) => {
         title={post.frontmatter.title}
         date={post.frontmatter.date}
         author={post.frontmatter.author}
+        timeToRead={post.timeToRead}
       />
     </Fragment>
   );
@@ -41,6 +48,7 @@ export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
+      timeToRead
       frontmatter {
         path
         date

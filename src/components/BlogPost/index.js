@@ -6,7 +6,7 @@ import { Container, Header, Date, Author } from './style';
 import Content from '../Content';
 
 const BlogPost = ({
-  content, contentComponent, title, date, author,
+  content, contentComponent, title, date, author, timeToRead,
 }) => {
   const PostContent = contentComponent || Content;
   return (
@@ -16,9 +16,17 @@ const BlogPost = ({
         {date && (
           <p>
             <Date>
+              <span role="img" aria-label="icono de calendario">
+                📅
+              </span>
               {moment(date)
                 .locale('es')
-                .format('DD MMMM, YYYY')}
+                .format('DD MMMM, YYYY')}{' '}
+              /{' '}
+              <span role="img" aria-label="icono de calendario">
+                ⏱️{' '}
+              </span>
+              {timeToRead} minutos
             </Date>
           </p>
         )}
