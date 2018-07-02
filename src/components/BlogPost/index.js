@@ -24,7 +24,7 @@ const BlogPost = ({
                 .format('DD MMMM, YYYY')}{' '}
               /{' '}
               <span role="img" aria-label="icono de calendario">
-                ⏱️{' '}
+                ⏱️
               </span>
               {timeToRead} minutos
             </Date>
