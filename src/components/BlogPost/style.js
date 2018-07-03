@@ -4,6 +4,10 @@ const Container = styled.main`
   width: 100%;
   padding-bottom: 3rem;
   .content {
+    > p:first-of-type {
+      font-size: 120%;
+      padding-top: 1rem;
+    }
     max-width: 720px;
     margin-left: auto;
     margin-right: auto;
@@ -24,6 +28,7 @@ const Container = styled.main`
           position: initial;
           margin-left: 0;
           margin-right: 0;
+          width: 100%;
         }
       }
     }
