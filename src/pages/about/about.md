@@ -1,9 +1,15 @@
 ---
 templateKey: about-page
 path: /nosotros
-title: Blogchain y el blockchain
+title: Quiénes somos
 ---
-### Esperando por Héctor, sí claro
+### Héctor Gutiérrez
+
+Me llamo Héctor, tengo 25 años y vivo en Las Palmas de Gran Canaria. Soy un apasionado de la tecnología, la innovación y el emprendimiento. Estudié Ingeniería Electrónica y Automática, 
+
+Estos son algunos temas que me apasionan: 
+
+Uno de mis hobbies es leer libros sobre educación financiera, economía e inversión. Justamente temas que toca este blog, de ahí a que haya decidido crearlo.
 
 Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
 
