@@ -2,11 +2,16 @@
 templateKey: blog-post
 path: como-guardar-tus-criptomonedas
 title: Cómo guardar tus criptomonedas de forma segura
+metatitle: '[GUÍA] Cómo guardar tus criptomonedas de forma segura'
 date: '2018-07-01T12:30:00+01:00'
 description: >-
   Conoce cual es la forma más recomendable de guardar tus criptomonedas
   dependiendo de tu situación.
+metadescription: >-
+  Conoce cual es la forma más recomendable de guardar tus criptomonedas
+  dependiendo de tu situación.
 image: /img/saving-bitcoin.jpg
+imageAlt: Almacenando bitcoins de manera segura
 author: Jorge Marrero
 ---
 
