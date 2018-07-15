@@ -4,6 +4,15 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-122365597-1',
+        head: true,
+        anonymize: true,
+        exclude: ['/admin/**'],
+      },
+    },
+    {
       resolve: 'gatsby-plugin-favicon',
       options: {
         logo: './src/assets/favicon.png',
