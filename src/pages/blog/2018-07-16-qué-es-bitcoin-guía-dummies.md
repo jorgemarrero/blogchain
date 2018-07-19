@@ -17,27 +17,23 @@ author: Héctor Gutiérrez
 ---
 El bitcoin es un tipo de divisa digital, creada y respaldada electrónicamente. Este tipo de moneda se caracteriza principalmente por ser **transparente, pública, libre, anónima y rápida. **En otras palabras, se trata de una moneda digital, utilizada para realizar operaciones en línea entre particulares sin la necesidad de un organismo gobernador central, como un banco o un gobierno.
 
-> Cabe destacar que también existe el protocolo Bitcoin (nótese la diferencia entre mayúsculas y minúsculas), que es la red a través de la cual se intercambian bitcoins. Pero esta vez vamos a centrarnos en el bitcoin como moneda, bitcoin con b minúscula.
+> Cabe destacar que también existe el protocolo Bitcoin (nótese la diferencia entre mayúsculas y minúsculas), que es la red a través de la cual se intercambian bitcoins. Pero esta vez vamos a centrarnos en el bitcoin como moneda, bitcoin con b minúscula. Aunque es inevitable toparnos con el protocolo para dar una definición completa.
 
 A continuación, vamos a intentar responder qué es bitcoin con 6 preguntas y para terminar detallaremos sus características principales. 
 
 Vamos allá!
 
-## ¿Qué hace al Bitcoin diferente de las demás monedas normales?
+## ¿Por qué el bitcoin es diferente?
 
 Bitcoin puede ser usado para comprar electrónicamente. Hasta aquí no existe mucha diferencia con respecto al euro, dólar o el yen japonés, que también permiten su uso de forma digital.
 
-> Bitcoin Es el primer ejemplo de la categoría de dinero conocida como criptomonedas.
+> Bitcoin es el primer ejemplo de la categoría de dinero conocida como criptomonedas.
 
 Sin embargo, la característica más importante de bitcoin, y el verdadero punto diferencial, **es su descentralización**. Esto quiere decir que no está controlada por ningún gobierno, banco o empresa, y por lo tanto no existe un banco central que emita el dinero libremente, cosa que sí sucede con las monedas convencionales.
 
-
-
-## ¿Quién creó Bitcoin?
+## ¿Quién creó bitcoin?
 
 Originalmente el concepto de Bitcoin se propuso en 2008, pero no fue lanzada oficialmente hasta 2009 por **Satoshi Nakamoto** ( ver Quién es el creador de Bitcoin).
-
-
 
 ## ¿Entonces, quién acuña el bitcoin?
 
@@ -47,13 +43,9 @@ Esto no ocurre con el bitcoin, que es creado digitalmente por una comunidad de p
 
 Esta red permite procesar transacciones realizadas con la moneda virtual, convirtiendo a bitcoin en una red de pagos propia.
 
-
-
 ## ¿Los bitcoins son ilimitados?
 
 No. El protocolo bitcoin - la norma de funcionamiento del bitcoin - establece que solo pueden ser creados **21 millones de bitcoins**. Sin embargo, la moneda puede dividirse en partes más pequeñas, llamándose satoshi al octavo decimal de una unidad bitcoin, en honor a su creador. (ver Qué es un satoshi).
-
-
 
 ## ¿En qué se basa bitcoin?
 
@@ -63,15 +55,11 @@ Personas de todo el mundo utilizan un software que opera de acuerdo a una fórmu
 
 Este software es de código abierto, lo que quiere decir que cualquier persona tiene acceso a él para asegurarse de cómo funciona realmente.
 
-
-
 ## ¿Qué determina el precio del bitcoin?
 
 El precio del bitcoin se determina por oferta y demanda. Cuando se incrementa la demanda del bitcoin el precio sube y cuando cae la demanda cae el precio. Hay un número limitado de bitcoin en circulación y los nuevos bitcoins son creados a una velocidad predecible y decreciente. Esto significa que la demanda debe seguir este nivel de inflación para mantener un precio estable.
 
 Debido a que el mercado del bitcoin es todavía relativamente pequeño comparado con lo que podría llegar a ser, no es necesaria una significativa cantidad de dinero para mover el precio del mercado arriba o abajo. Es por eso que el precio del bitcoin es todavía muy volátil.
-
-
 
 ## Características del bitcoin
 
